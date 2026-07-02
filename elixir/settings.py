@@ -14,14 +14,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = str(os.getenv('SECRET_KEY'))
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",
     'localhost',
-    'elixircommerce.onrender.com',
-    'https://elixircommerce.onrender.com',
-    'https://elixircommerce.onrender.com'
+    'ecommerce-m7hb.onrender.com',
+    'https://ecommerce-m7hb.onrender.com',
+    'http://ecommerce-m7hb.onrender.com'
 ]
 
 # Application definition
