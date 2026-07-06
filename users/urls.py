@@ -8,5 +8,4 @@ urlpatterns = [
     # LOGOUT
     path('logout/', views.LogoutView.as_view()),
     # DASHBOARD
-    path('dashboard/', views.DashboardView.as_view()),
 ]

@@ -18,9 +18,10 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'localhost',
-    '127.0.0.1',
-    'ecommerce-m7hb.onrender.com',
-]
+    'ecommerce-1cx3.onrender.com',
+    'http://ecommerce-1cx3.onrender.com'
+    ]
+
 
 # Application definition
 
@@ -124,5 +125,5 @@ PAYSTACK_SECRET_KEY = str(os.getenv('PAYSTACK_SECRET_KEY'))
 
 STATIC_URL = 'static/'
 
-MEDIA_ULR = '/image/'
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
